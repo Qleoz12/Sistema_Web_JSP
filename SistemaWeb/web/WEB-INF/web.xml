@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>Index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>doRegistrarEmpleado</servlet-name>
+        <servlet-class>Controlador.doRegistrarEmpleado</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>doPrestaciones</servlet-name>
+        <servlet-class>Controlador.doPrestaciones</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>doBuscar</servlet-name>
+        <servlet-class>Controlador.doBuscar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>doRegistrarEmpleado</servlet-name>
+        <url-pattern>/doRegistrarEmpleado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>doPrestaciones</servlet-name>
+        <url-pattern>/doPrestaciones</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>doBuscar</servlet-name>
+        <url-pattern>/doBuscar</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

@@ -1,0 +1,232 @@
+
+body{
+    margin-left: 10%;
+    width: 850px;
+    height: auto;
+}
+#BoxLogo{
+    width: 850px;
+    height: 200px; 
+}
+#contenido{
+    width: 850px;
+    height: 720px;
+}
+.foot{
+    margin-left: 15px;
+    width: 820px;
+    height:20px;
+    border: solid;
+    text-align: left;
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-style:italic; font-size:12px;
+}
+.foot p{
+    color:buttonface ;
+    margin-top: 2px;
+    padding: 1px;
+    text-align: left;
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-style:italic; font-size:12px;
+
+}
+.Img{
+    width: 100%;
+    height: 100%
+}
+.BoxMenu{
+    float: left;
+    width: 250px;
+    height: 300px;
+}
+.BoxEstadisticas{
+    float: right; 
+    margin-right: 15px;
+    margin-left: 5px;
+    width: 550px;
+    height: 300px;
+    border-left: darkgray; 
+    border-left-style:  dashed;
+}
+#BoxContenido{
+    position: absolute;
+    top: 535px;
+    width: 825px;
+    height: auto; 
+}
+
+#tableR td{
+    border-bottom: appworkspace;
+    padding: 5px;
+    margin: 5px;
+}
+#tableR th{
+    border-bottom: appworkspace;
+    padding: 5px;
+    margin: 5px;
+}
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.form .register-form {
+    display: none;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.container:before, .container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.container .info span .fa {
+    color: #EF3B3A;
+}
+.Style2 {
+
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: bold; 
+    font-style: italic; 
+    font-size: 16px; 
+
+}
+#Advertencia{
+    font-family: Arial; 
+    color: #FF0040;
+}
+#Advertencia , li{
+    color: #FF0040;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#holder { position: absolute; top: 0; left: 0;}
+#copy {clear: both; height: 5em; position: absolute; bottom: 0; left:0;   border: none; width: 100%;}
+html, body, #holder { min-height: 100%; width: 100%; height: 100%;}
+html>body, html>body #holder { height: auto;}
+body { margin: 0; padding:0;background-color:#99A7CC;	 }
+
+#resol {
+    text-align:left;font-family:Verdana, Arial, Helvetica, sans-serif;
+    position:fixed;
+    padding-left:10px;
+    width:290px;top:0px;
+    left:1280px;margin:0 auto;
+    background:#bfc6d9;}
+
+#resol h1 {
+    background:none;
+    font-size:1.2em;
+    letter-spacing:10px;
+    padding:0px;margin:0px;
+    border: 0px;} 
+
+#resol h2 {
+    font-size:0.6em;
+    letter-spacing:3px;
+    padding:0px;margin:0px;
+    background:none;}
+.TitreB{ color:#6B7598; font-family:Verdana, Arial, Helvetica, sans-serif; 
+         font-weight:bold; 
+         font-size:16px;}
+.TitreJ{ 
+    color:#F0C224; 
+        font-family:Verdana, Arial, Helvetica, sans-serif; 
+        font-weight:none; font-style:italic; font-size:16px;} 
+.Box{ color:#000000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
+.Copy{ color:#000000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
+.Style2 {color: #F0C224; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-style: italic; font-size: 16px; }
+.Style3 {color: #83ADF7}
+.Style4 {
+    font-size: 12px;
+    font-weight: bold;
+}
+*/
